@@ -131,15 +131,6 @@ Ensure your MongoDB server is running and the \`MONGO_URI\` in the \`.env\` file
   - **URL:** \`/api/parking/:userId\`
   - **Method:** \`GET\`
 
-## Seeding the Database
-
-To seed the database with initial data, use the provided seeding script:
-
-1. Ensure your MongoDB server is running.
-2. Run the seeding script:
-    \`\`\`sh
-    node scripts/seedCities.js
-    \`\`\`
 
 ## Example Requests
 
@@ -232,7 +223,3 @@ Here are some example requests you can use in Postman or any other API testing t
 - **Request:**
   - **URL:** \`http://localhost:5000/api/parking/123\`
   - **Method:** \`GET\`
-
-## Running Tests
-
-You can write and run tests for your API to ensure everything works correctly. Use a testing framework like Mocha or Jest to create and run your tests.
